@@ -2,7 +2,7 @@
 
 > 直接分析使用者資料夾內拍攝的影片與照片，依提示詞剪輯成片；需要角色動畫或補充畫面時，可選用 Google Flow 生成再合成。
 
-**版本：** 1.0.0  
+**版本：** 1.0.0
 **日期：** 2026-10-10
 
 ## 用途
@@ -40,4 +40,27 @@
 
 ## GitHub 發布
 
-此目錄是獨立技能草稿。發布時將資料夾內容放入您指定的新 GitHub repository，再設定 `origin` 並 push。倉庫位置由使用者指定，不在尚未提供時猜測。
+## Git 與版本管理
+
+此技能以獨立 Git repository 維護。版本遵循 SemVer，並同步更新 `VERSION`、`SKILL.md` 和本檔；每次發布在 `HISTORY.md` 記錄變更。
+
+目前遠端：[`prayer168/blackbear_nature_class_video_skill`](https://github.com/prayer168/blackbear_nature_class_video_skill)
+主要分支：`main`
+
+一般更新流程：
+
+```bash
+git status --short --branch
+git diff --check
+git add SKILL.md README.md HISTORY.md VERSION
+git commit -m "Describe the skill update"
+git push origin main
+```
+
+初次 clone：
+
+```bash
+git clone https://github.com/prayer168/blackbear_nature_class_video_skill.git
+```
+
+此 repo 僅包含技能文件；拍攝素材、Flow 生成影片、音樂及成片應留在各自的影片專案資料夾，不提交到技能 repo。
