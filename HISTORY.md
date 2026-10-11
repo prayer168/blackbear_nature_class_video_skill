@@ -1,5 +1,12 @@
 # HISTORY
 
+## 1.5.0 — 2026-10-11
+
+- 新增每支完成影片（主片或已製作 Shorts）都產生 Facebook 貼文 `.txt` 的標準交付。
+- 規定文案依最終成片撰寫，分片保存於 `製作後/臉書宣傳/臉書貼文.txt`，不得虛構內容或影片連結。
+- 明定這是本機文案產出，不會自動發布；使用者明確略過時可不製作。
+- 更新 README、SKILL 與 VERSION 版本號。
+
 ## 1.4.1 — 2026-10-11
 
 - 依使用者指定，技能識別名稱與本機資料夾由 `personal-footage-flow-video` 改為 `blackbear_nature_class_video_skill`；儲存庫名稱不變。
