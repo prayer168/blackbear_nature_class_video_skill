@@ -1,5 +1,10 @@
 # HISTORY
 
+## 1.4.1 — 2026-10-11
+
+- 依使用者指定，技能識別名稱與本機資料夾由 `personal-footage-flow-video` 改為 `blackbear_nature_class_video_skill`；儲存庫名稱不變。
+- 保留既有自攝素材剪輯、Flow、配樂與四資料夾交付規則。
+
 ## 1.4.0 — 2026-10-11
 
 - 統一主題根目錄與主片＋三支 Shorts 的四資料夾、三階段結構。

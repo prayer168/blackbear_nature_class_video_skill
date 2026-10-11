@@ -1,8 +1,8 @@
-# personal-footage-flow-video
+# blackbear_nature_class_video_skill
 
 > 直接分析使用者資料夾內拍攝的影片與照片，依提示詞剪輯成片；需要角色動畫或補充畫面時，可選用 Google Flow 生成再合成。
 
-**版本：** 1.4.0
+**版本：** 1.4.1
 **日期：** 2026-10-11
 
 ## 用途
